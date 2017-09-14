@@ -15,7 +15,24 @@
 			"file": "hello.cpp",
 			"settings":
 			{
-				"buffer_size": 95,
+				"buffer_size": 96,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/C/Users/waylo/IdeaProjects/APCS-2016-17/src/ColorWheel.java",
+			"settings":
+			{
+				"buffer_size": 2750,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "name.cpp",
+			"settings":
+			{
+				"buffer_size": 237,
 				"line_ending": "Windows"
 			}
 		}
@@ -43,22 +60,60 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 137.0,
-		"last_filter": "install",
+		"height": 354.0,
+		"last_filter": "lint",
 		"selected_items":
 		[
 			[
+				"lint",
+				"SublimeLinter: Toggle Linter"
+			],
+			[
+				"error",
+				"SublimeLinter: Next Error"
+			],
+			[
 				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git",
+				"Git: Pull"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
 				"Package Control: Install Package"
 			]
 		],
-		"width": 392.0
+		"width": 480.0
 	},
 	"console":
 	{
 		"height": 225.0,
 		"history":
 		[
+			"print \"hello\"",
+			"print \"hello",
+			"print hello",
+			"for x in range(1,10):",
+			"for x in range(1,10)",
+			"for x in range(1,10): print x",
+			"for x in range(1,10) print x",
+			"for x in range(1,10) print(\"x\")",
+			"gpp",
+			"g++",
+			"git",
+			"build",
+			"quit",
+			"exit",
+			"exit()",
+			"1+1",
+			"help()",
+			"cd"
 		]
 	},
 	"distraction_free":
@@ -76,6 +131,10 @@
 	],
 	"file_history":
 	[
+		"/C/Users/waylo/IdeaProjects/APCS-2016-17/Count.java",
+		"/C/Users/waylo/CPP-2017-18/hello.cpp",
+		"/C/Users/waylo/Documents/terminal/edit.js",
+		"/C/Users/waylo/CPP-2017-18/COMMIT_EDITMSG.COMMIT_EDITMSG",
 		"/C/Users/waylo/AppData/Roaming/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
 		"/C/Windows/Resources/Themes/Dragoon X/Dragoon X.msstyles",
 		"/C/Users/waylo/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
@@ -100,7 +159,7 @@
 	],
 	"find":
 	{
-		"height": 26.0
+		"height": 70.0
 	},
 	"find_in_files":
 	{
@@ -131,7 +190,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -140,15 +199,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 95,
+						"buffer_size": 96,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								93,
+								93
 							]
 						],
 						"settings":
@@ -159,7 +218,65 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/C/Users/waylo/IdeaProjects/APCS-2016-17/src/ColorWheel.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2750,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1020,
+								1020
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 203.0,
+						"zoom_level": 1.0
+					},
 					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "name.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 237,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								237,
+								237
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -167,11 +284,11 @@
 	],
 	"incremental_find":
 	{
-		"height": 26.0
+		"height": 32.0
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 45.0
 	},
 	"layout":
 	{
@@ -195,7 +312,7 @@
 			1.0
 		]
 	},
-	"menu_visible": true,
+	"menu_visible": false,
 	"output.exec":
 	{
 		"height": 215.0
@@ -204,11 +321,15 @@
 	{
 		"height": 0.0
 	},
+	"output.git":
+	{
+		"height": 174.0
+	},
 	"pinned_build_system": "Packages/C++/C++ Single File.sublime-build",
 	"project": "cpp-2017-18.sublime-project",
 	"replace":
 	{
-		"height": 48.0
+		"height": 114.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -246,7 +367,7 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 150.0,
+	"side_bar_width": 271.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
